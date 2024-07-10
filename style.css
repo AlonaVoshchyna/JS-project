@@ -1,0 +1,57 @@
+.main_planner{
+    display: block;
+margin-left: auto;
+    margin-right: auto;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.main_heading{
+    position: absolute;
+    top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.main_left {
+    position: absolute;
+    top: 19%;
+    left: 24%;
+  }
+a{
+    text-decoration: none;
+    color: rgb(135, 48, 186);
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 1.5em;
+
+}
+a:hover,
+a:focus{
+     color: black;
+    font-size: 2em;
+     font-family: 'Times New Roman', Times, serif; 
+}
+
+.main_right{
+    position: absolute;
+  top: 19%;
+  right: 22%;
+}
+.main_bottomright{
+    position: absolute;
+  bottom: 29%;
+  right: 21%;
+}
+.main_bottomleft{
+    position: absolute;
+  bottom: 29%;
+  left: 21%;
+}
+
+/* today.html styles */
+
+
